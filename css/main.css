@@ -240,7 +240,7 @@
   width: 40px;
   height: 40px;
   }
-  
+
   footer .social-icons p i {
     font-size: 1.3125em;
   }
@@ -327,6 +327,11 @@
     justify-content: center;
     align-items: flex-start;
     flex-flow: row wrap;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
   
   .features p {
@@ -595,6 +600,11 @@
     .features .features-item-description {
       width: 62%;
     }
+
+    .features i {
+      margin-bottom: 30px;
+    }
+  
   
     /* Reviews */
     .reviews article {
@@ -639,6 +649,11 @@
   
     footer p {
       line-height: 1.285;
+    }
+
+    footer .social-icons {
+      width: 12.5em;
+      justify-content: space-between;
     }
   
     footer .copyright {
